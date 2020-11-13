@@ -1,0 +1,18 @@
+c = input("введіть варіант 1=+: 2=-: 3=*: 4=/: ")
+if c in('1', '2', '3', '4'):
+        n1 = float(input("n1="))
+        n2 = float(input("n2="))
+if c == '1':
+            v=n1+n2
+            print(v)
+elif c == '2':
+            v=n1-n2
+            print(v)
+elif c == '3':
+            v=n1*n2
+            print(v)
+elif c == '4':
+            v=n1/n2
+            print(v)
+else:
+        print("Неправельне введення")
